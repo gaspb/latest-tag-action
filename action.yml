@@ -20,7 +20,9 @@ inputs:
     default: "true"  
 outputs:
   tag:
-    description: The latest tag, without prefix
+    description: The latest tag with prefix
+  version:
+    description: The latest tag, without prefix  
 runs:
   using: docker
   image: Dockerfile
